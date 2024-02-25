@@ -25,3 +25,16 @@ plugins {
 ```
 - id 'com.android.library' version '8.2.2' apply false 설정 안됨 ( 추가 완료 )
 - id 'org.jetbrains.kotlin.android' version '1.9.20' apply false 설정 안됨 ( 추가 완료 )
+
+### Ⅱ. Build 에러
+#### 1️⃣ Build Configuration Language ( 빌드 구성 )
+✅ Build Configuration Language
+- 프로젝트 빌드 구성을 정의하는 언어
+
+✅ 안드로이드 빌드 구성
+- 앱 : [ 소스 코드 ] → ( 컴파일 ) → ( 패키지 화 )
+- 위 작업을 위한 설정 / 규칙을 지정 ( 빌드 구성 언어로 규칙 지정 )
+
+✅ Kotlin DSL
+- Kotlin 으로 작성된 Domain-Specific Language
+- 안드로이드 개발에서는 Kotlin DSL 을 사용하여, Gradle 빌드 스크립트를 작성하는 것을 권장
